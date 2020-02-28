@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "animundo-decks",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mdx-deck decks/test/test.mdx",
+    "build": "mdx-deck build decks/test/test.mdx",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "gatsby-source-filesystem": "^2.1.48",
+    "mdx-deck": "^4.1.0",
+    "react": "^16.13.0"
+  }
+}
